@@ -1,0 +1,11 @@
+clc;
+clear;
+close;
+t=0:0.00005:0.05;
+f1=200;
+f2=100;
+y1=sin(2*pi*f1*t);
+y2=sin(2*pi*f2*t);
+y=y1+y2;
+plot(t,y);
+grid on;
